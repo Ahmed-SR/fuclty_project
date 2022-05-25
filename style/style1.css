@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bdy{
+background-color: #ccc;
+}
+/*navigation bar**/
+.nav {
+  overflow: hidden;
+  background-color: #000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav a:hover {
+  background-color: #bab;
+  color: black;
+    font-family:tahoma;
+}.nav .pizza{
+      background-color: #ccc;
+      color: black;
+      font-family:tahoma;
+}
+.nav .koshary {
+  background-color: #ccc;
+  color: black;
+}
+.nav .chocolate {
+  background-color: #ccc;
+  color: black;
+}
+.nav .about {
+  background-color: #ccc;
+  color: black;
+}
+.header{
+    margin-left: 10px;font-family: rom;text-transform: uppercase;
+}
+/*images*/
+
+div.gallery {
+  border: 1px solid #ccc;
+   /* width: 100%;*/
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background-color: green;
+}
+
+div.defination {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+    display: flex;
+    justify-content: center;
+}
+.information{
+font-size:150%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer
+{
+    background-color: #a8a803;
+    text-align: center;
+    padding: 10px;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media only screen and (max-width: 1539px) {
+  .parent {
+    width: 30%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .parent {
+    width: 100%;
+  }
+}
+
+
+
+/****/
