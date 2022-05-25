@@ -1,0 +1,91 @@
+<html>
+<head>
+    <title>Registration Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style/style0.css" rel="stylesheet">
+</head>
+<body>
+<!--
+                <div class="nav">
+                    <a class="regist" href="index0.html">Registeration</a>
+                    <a href="index1.html">Pizza</a>
+                    <a href="index2.html">Koshary</a>
+                    <a href="index3.html">Chocolate</a>
+                    <a href="index4.html">contact us</a>
+                </div>
+    <div class="bdy">
+-->
+    <div class="container">
+        <div class="title">Registration</div>
+        <form name="myForm" action="index1.html">
+            <div class="user_data">
+                <div class="user_input">
+                    <span class="details">First Name</span>
+                    <input type="text" placeholder="Enter first name" name="fname" id="fname"onkeyup="namee()" >
+                    <span id="warning_name1" style="color: red"></span>
+                </div>
+                <div class="user_input">
+                    <span class="details">last Name</span>
+                    <input type="text" placeholder="Enter last name" name="lname"id="lname"onkeyup="namee()">
+                    <span id="warning_name2" style="color: red"></span>
+                </div>
+                <div class="user_input">
+                    <span class="details">E-mail</span>
+                    <input id="e_mail" type="text" placeholder="Enter email"name="E-mail"onkeyup="email()">
+<!--                    <button onclick="email()">check</button>-->
+                    <span id="warning_email" style="color: red"></span>
+                </div>
+                <div class="user_input">
+                    <span class="details">Phone Number</span>
+                    <input id="phonee"type="text" placeholder="Enter phone number"name="phone number" maxlength="11" onkeyup="phhone()">
+<!--                    <button onclick="phhone()">check phone</button>-->
+                    <span id="warning_phone" style="color: red"></span>
+                    <span id="warning1_phone" style="color: red"></span>
+                </div>
+                <div class="user_input">
+                    <span class="details">password</span>
+                    <input type="password" name="fpass" id="pass" maxlength="8" minlength="8" placeholder="Enter password" title="first Letter should be capitalise*****the password must include 8 characters and has one digit at least and has special char and not has any space"onkeyup="passwordd()">
+<!--                    <button onclick="passwordd()">check</button>-->
+                    <span id="warning5_pass" style="color: red"></span>
+                    <span id="warning1_pass" style="color: red"></span>
+                    <span id="warning2_pass" style="color: red"></span>
+                    <span id="warning3_pass" style="color: red"></span>
+                    <span id="warningg4_pass" style="color: red"></span>
+                </div>
+                <div class="user_input">
+                    <span class="details">Address</span>
+                    <input type="text" placeholder="Enter address" name="address"id="address"onkeyup="namee()">
+                    <span id="warning_address" style="color: red"></span>
+                </div>
+            </div>
+                <div class="gender_data">
+                    <span class="gender_title">Gender</span>
+                    <div class="category">
+<!--
+                        <label for="">
+                            <input type="radio" name="gender" value="mail" required>
+                            <span class="gender">Male</span>
+                        </label>
+                        <label for="">
+                            <input type="radio" name="gender" value="female">
+                            <span class="gender">female</span>
+                        </label>
+-->
+                        <select name="gender" class="select_gender">
+                            <option value="male" class="ma">male</option>
+                            <option value="female"class="ma">female</option>
+                        </select>
+                    </div>
+                </div>
+            <div class="btn">
+                <input type="button" value="check Inputs" onclick="namee()">
+                <input type="reset" value="Cancel" onclick="clear0()">
+                <span id="Registration"><button class="regist"><a href="index1.html">Food page</a></button></span>
+            </div>
+        </form>
+    </div>
+<!--    </div>-->
+    <script src="js/js0.js"></script>
+</body>
+</html>
