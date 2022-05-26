@@ -4,7 +4,8 @@ function clear0() {
     document.getElementById('warning5_pass').innerHTML = ""; document.getElementById('warning_email').innerHTML = "";
     document.getElementById('warning_phone').innerHTML = ""; document.getElementById('warning1_phone').innerHTML = "";
     document.getElementById('warning_name1').innerHTML = ""; document.getElementById('warning_name2').innerHTML = "";
-    document.getElementById('warning_address').innerHTML = "";
+    document.getElementById('warning_address').innerHTML = "";document.getElementById('warning_email2').innerHTML = "";
+     document.getElementById('warning_phone3').innerHTML = "";document.getElementById('warning6_pass').innerHTML = "";
 }
 //var counter1 = 0, counter2 = 0, counter3 = 0;
 function passwordd() {
@@ -120,19 +121,19 @@ function namee() {
         document.getElementById('warning_address').innerHTML = "";
     }
     if(pas == ""){
-    document.getElementById('warning1_pass').innerHTML = "Required.";
+    document.getElementById('warning6_pass').innerHTML = "Required.";
     }else{
-        document.getElementById('warning1_pass').innerHTML = "";
+        document.getElementById('warning6_pass').innerHTML = "";
     }
    if(ema == ""){
-    document.getElementById('warning_email').innerHTML = "Required.";
+    document.getElementById('warning_email2').innerHTML = "Required.";
     }else{
-        document.getElementById('warning_email').innerHTML = "";
+        document.getElementById('warning_email2').innerHTML = "";
     }
    if(pho == ""){
-    document.getElementById('warning_phone').innerHTML = "Required.";
+    document.getElementById('warning_phone3').innerHTML = "Required.";
     }else{
-        document.getElementById('warning_phone').innerHTML = "";
+        document.getElementById('warning_phone3').innerHTML = "";
     }
 }
 
